@@ -848,7 +848,7 @@
 				console.log('debug');
 			}
 
-			var txt = 'Halo simp ku sayang';
+			var txt = 'Halo Rinata ku sayang';
 			var txt2 = 'txt';
 
 			function checkTime(i) {
@@ -908,7 +908,7 @@
 					txt2=txt;
 				}
 				else if(H<=24){
-					txt='Time to Sleep, Good Night:)';
+					txt='Waktunya Tidur, Selamat Malam Rynata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -949,25 +949,25 @@
 			}
 			startTime();
 			function init_auto(){
-				if ((H>23) || (H<4)){
+				if ((H>2) || (H<4)){
 					midnight();
 				}
 				else if(H<6){
 					dawn();
 				}
-				else if(H<9){
+				else if(H<12){
 					morning();
 				}
-				else if(H<17){
+				else if(H<15){
 					noon();
 				}
-				else if(H<18){
+				else if(H<19){
 					afternoon();
 				}
-				else if(H<19){
+				else if(H<21){
 					sunset();
 				}
-				else if(H<23){
+				else if(H<24){
 					evening();
 				}
 				else{
