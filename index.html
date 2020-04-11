@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>SIMP</title>
+	  <title>For You Rinata</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -384,7 +384,7 @@
 			</div>
 			<div class="ucapan" id="quote"></div>
 			<div class="note">ngeng</div>
-			<div class="pengembang">Andika Sujanadi</div>
+			<div class="pengembang">Hisham AS</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -511,10 +511,10 @@
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#4c1130"){
-					setTimeout(function() { createNote("Mangat Din ngepush course javascriptnya :v"); }, 5000);
+					setTimeout(function() { createNote("Tetap ngepushhhh terossss gass"); }, 5000);
 				}
 				else if(localStorage.getItem("manualColor")=="#000000"){
-					setTimeout(function() { createNote("Buat belajar bro, bukan buat neko neko :v"); }, 5000);
+					setTimeout(function() { createNote("Rinata, Jadian Kuy?🥺"); }, 5000);
 				}
 			}
 			function createNote(isi){
@@ -871,38 +871,38 @@
 				M=m;
 				S=s;
 
-				if (H<5){
-					txt='Have a Good Night:)';
+				if (H<2){
+					txt='Semoga Tidurmu Nyenyak, Rinata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
-				else if(H<9){
-					txt='Good Morning You:)';
+				else if(H<6){
+					txt='Selamat Pagi, Rinata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<12){
-					txt='Be Happy Today:)';
+					txt='Selamat Siang, Rinata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
-				else if(H<16){
-					txt='Good Afternoon Dear:)';
+				else if(H<15){
+					txt='Selamat Sore, Rinata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<19){
-					txt='Good Afternoon, Take a Rest:)';
+					txt='Selamat Malam, Selamat Istirahat Rinata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
-				else if(H<23){
-					txt='Good Evening Sweetie:)';
+				else if(H<21){
+					txt='Selamat Malam, Rynata Sayang';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -977,53 +977,30 @@
 
 			const quotes = [
 			  {
-			    "quote": "Bila kau tak tahan lelahnya belajar, maka kau harus tahan menanggung perihnya kebodohan",
-			    "source": "Imam Syafi'i"
+			    "quote": "Jangan lupa makan ya :)",
+			    "source": "Hisham AS"
 			  },
 			  {
-			    "quote": "Just because I carry it all so well doesn't mean it's not heavy",
-			    "source": "Andika Sujanadi"
+			    "quote": "Jangan nakal ya :)",
+			    "source": "Hisham AS"
 			  },
 			  {
-			    "quote": "Semesta memiliki alurnya masing-masing",
-			    "source": "Andika Sujanadi"
+			    "quote": "Tetap semangat ya sayang :)",
+			    "source": "Hisham AS"
 			  },
 			  {
-			    "quote": "You don't lose, You learn",
-			    "source": "Andika Sujanadi"
+			    "quote": "Di jaga kesehatannya ya :)",
+			    "source": "Hisham AS"
 			  },
 			  {
-			    "quote": "I own my own life and my own decission",
-			    "source": "Andika Sujanadi"
+			    "quote": "Jangan pernah berubah ya :)",
+			    "source": "Hisham AS"
 			  },
 			  {
-			    "quote": "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
-			    "source": "Andika Sujanadi"
+			    "quote": "Tetap menjadi apa yang aku kenal ya :)",
+			    "source": "Hisham AS"
 			  },
-			  {
-			    "quote": "Masa lalu dan frustasi merupakan fondasi dasar untuk menciptakan kembali kehidupan baru yang lebih baik",
-			    "source": "Anthony Robbins"
-			  },
-			  {
-			    "quote": "Ada kalimat yang ingin aku dapatkan dari dia tapi aku dapat dari orang lain",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "People doesn't want to end their life, they just wanted to end the pain",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Need someone to talk about life, but sitting alone is much better",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Seorang bahagia bukan karena semua benar dalam hidupnya, tapi sikap terhadap hidupnya yang benar",
-			    "source": "Sundar Pichai"
-			  },
-			  {
-			    "quote": "Jika hari ini harus lebih baik darpada hari kemarin dan hari esok lebih baik daripada hari ini maka kelahiranmu adalah hari terburuk yang pernah ada",
-			    "source": "Om Hell"
-			  },
+		
 			]
 			setInterval(randomQuote, 60000);
 			function randomQuote(){
