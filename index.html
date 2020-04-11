@@ -916,25 +916,25 @@
 				starting=false;
 
 				if (auto && m==0 && s==0){
-					if ((h>23) || (h<4)){
+					if ((h>2) || (h<4)){
 						midnight();
 					}
 					else if(h<6){
 						dawn();
 					}
-					else if(h<9){
+					else if(h<12){
 						morning();
 					}
-					else if(h<17){
+					else if(h<15){
 						noon();
 					}
-					else if(h<18){
+					else if(h<19){
 						afternoon();
 					}
-					else if(h<19){
+					else if(h<21){
 						sunset();
 					}
-					else if(h<23){
+					else if(h<24){
 						evening();
 					}
 				}
